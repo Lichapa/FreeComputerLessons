@@ -1,0 +1,40 @@
+@font-face{
+  font-family: cocogoose;
+  src: url(/assets/COCOGOOSE/Cocogoose_trial.otf);
+}
+
+*{
+  font-family: cocogoose, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.color-black{
+  color:#272A31;
+}
+
+.color-orange{
+  color: #EC5242;
+}
+
+.color-grey{
+  color: #D3D3D3;
+}
+
+.color-white{
+  color: white;
+}
+
+.bg-black{
+  background-color:#272A31;
+}
+
+.bg-white{
+  background-color: white;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.border-red{
+  border: solid 3px  #EC5242;
+}
