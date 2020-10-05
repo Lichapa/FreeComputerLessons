@@ -63,8 +63,14 @@
 
 }
 
-.second-section .section-header {
-  border-bottom: 1px solid #EC5242 ;
-  border-bottom-width: medium;
+.section-header-hr {
+  border-top: 1px solid #EC5242 ;
+  width: 4%;
+  margin: auto;
 }
+
+.second-section-activities{
+  background-color: rgba(87, 77, 77, 0.9);
+}
+
  
