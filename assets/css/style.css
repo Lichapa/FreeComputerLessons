@@ -1,10 +1,10 @@
-@font-face{
+/* @font-face{
   font-family: cocogoose;
   src: url(/assets/COCOGOOSE/Cocogoose_trial.otf);
-}
+} */
 
 *{
-  font-family: cocogoose, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: cocogoose,sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial;
 }
 
 .color-black{
@@ -31,6 +31,10 @@
   background-color: white;
 }
 
+.bg-grey{
+  background-color: rgba(30, 30, 30, 0.7);
+}
+
 .font-12 {
   font-size: 12px;
 }
@@ -38,3 +42,29 @@
 .border-red{
   border: solid 3px  #EC5242;
 }
+
+.first-section{
+  position: relative;
+  height:90vh;
+  width: 100%;
+}
+
+.first-section::before{
+  content: "";
+  background-image: url("/assets/images/practicle-session.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.4;
+
+}
+
+.second-section .section-header {
+  border-bottom: 1px solid #EC5242 ;
+  border-bottom-width: medium;
+}
+ 
