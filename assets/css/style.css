@@ -1,10 +1,9 @@
-/* @font-face{
-  font-family: cocogoose;
-  src: url(/assets/COCOGOOSE/Cocogoose_trial.otf);
-} */
-
-$enable-shadows * {
-  font-family: cocogoose, sans-serif, "Franklin Gothic Medium", "Arial Narrow",
+* {
+  font-family:
+    cocogoose,
+    sans-serif,
+    "Franklin Gothic Medium",
+    "Arial Narrow",
     Arial;
 }
 
@@ -44,7 +43,6 @@ $enable-shadows * {
   background-color: #ec5242;
 }
 
-
 .font-12 {
   font-size: 12px;
 }
@@ -65,10 +63,10 @@ $enable-shadows * {
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   opacity: 0.4;
 }
 
@@ -84,42 +82,51 @@ $enable-shadows * {
 }
 
 .second-section-activities:hover {
-  border: 3px solid #ffffff;
+  border: 3px solid #fff;
 }
 
 .past-lessons {
   height: 15em;
   width: 15em;
   color: #fff;
-
   cursor: pointer;
   background-size: cover;
 }
 
 .past-lesson-1 {
-  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(238, 171, 164, 0.7)),
+  background:
+    linear-gradient(rgba(236, 82, 66, 0.7), rgba(238, 171, 164, 0.7)),
     url("../images/october-19.JPG");
   background-position: center;
   background-size: 130%;
 }
 
 .past-lesson-2 {
-  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(238, 171, 164, 0.7)),
+  background:
+    linear-gradient(rgba(236, 82, 66, 0.7), rgba(238, 171, 164, 0.7)),
     url("../images/october-2019.JPG");
   background-position: center;
   background-size: 120%;
 }
 
 .past-lesson-3 {
-  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(238, 171, 164, 0.7)),
+  background:
+    linear-gradient(rgba(236, 82, 66, 0.7), rgba(238, 171, 164, 0.7)),
     url("../images/chatting-with-the-student.jpg");
   background-position: 60% 45%;
   background-size: cover;
 }
 
 .past-lesson-4 {
-  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(238, 171, 164, 0.7)),
+  background:
+    linear-gradient(rgba(236, 82, 66, 0.7), rgba(238, 171, 164, 0.7)),
     url("../images/Lecture-Hall.jpg");
   background-position: center;
   background-size: 130%;
+}
+
+.hr-30-left {
+  width: 30px;
+  text-align: left;
+  margin-left: 0;
 }
