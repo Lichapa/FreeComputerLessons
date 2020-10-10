@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="shadow-sm d-none d-md-block">
       <nav class="nav-bar">
         <div class="top-nav bg-black font-12">
           <ul class="list-unstyled list-inline py-2 text-right container">
@@ -71,30 +71,31 @@
     </header>
 
     <main>
-      <section class="py-5 first-section row">
-        <div class="container py-3 position-relative text-center ">
+      <section class=" pb-5 first-section row">
+        <div class="d-md-none container">
+          <div class="text-left display-4 pt-n4 pt-2"> <h1><a href="#"  class="color-black">☰</a> </h1></div>
+        </div>
+        <div class="container-md py-1 position-relative text-center ">
           <div class="w-75 mx-auto  mb-4 " >
-            <h1 class="display-5 heading-infor color-orange font-weight-bold">
+            <h1 class="heading-infor color-orange font-weight-bold">
               FREE COMPUTER LESSONS <br />
               JANUARY 2021
             </h1>
             <div class="section-header-hr color-orange "><span class="d-none">hidden</span></div>
           </div>
-          <div class="p-4 border color-black font-12 w-75 bg-white m-auto">
+          <div class="p-2 border color-black font-12  bg-white m-auto w-75">
             <p>Free computer were introduced to give a chance to secondary school leaver who do not have access
               to a computer learn basic skills. Being an online institution, computers are one of the core instruments
               our students use during their studies.</p>
-            <p>
+            <p class="d-none d-md-block">
               Practicle and theoretical lessons are offered during the training. The thoery explains what the computer is 
               and what they can use it for. The practical sessions gives hands-on experience manipulating documents, creating
               email account and composing their first email.
             </p>
           </div>
 
-          <div class="pt-5">
-            <p class="p-0">Please contact chimwemwe Andrea for more information!</p>
-           
-            <u><a href="mailto:a.chimwemwe@unicafmalawi.com" class="text-dark font-weight-bold" class="mb-4">a.chimwemwe@unicafmalawi.com</a></u> >
+          <div class="pt-2">
+            <p class="p-0">Please contact us for more information! </p>
           </div>
         </div>
       </section>
@@ -116,7 +117,7 @@
           </P>
         </div>
 
-        <div class="  p-4 border color-black font-12 w-25 bg-white mx-auto mt-4">
+        <div class="  p-4 border color-black font-12 w-50 w-md-25 bg-white mx-auto mt-4">
           <img src="./assets/images/Unicaf-logo2.png" alt="" class="w-100">
         </div>
         
@@ -134,31 +135,50 @@
 
         
         <div class="row mt-5 text-center color-white justify-content-center">
-          <div class="col-5  past-lessons past-lesson-1 mx-2 py-5 ">
+          <div class="col-10 col-md-5 past-lessons past-lesson-1 m-1 py-5 ">
                 <h5>October 2019</h5>
                 <p>Group photo after receiving certificate</p>
           </div>
 
-          <div class="col-5 past-lessons past-lesson-2 mx-2 py-5 ">
+          <div class="col-10 col-md-5 past-lessons past-lesson-2 m-1 py-5 ">
                 <h5>October 2019</h5>
                 <p>Attendees showing of their certificates</p>
           </div>
         </div>
 
-        <div class="row mt-3 text-center color-white justify-content-center">
-          <div class="col-5 past-lessons past-lesson-3 mx-2 py-5">
+        <div class="row mt-2 text-center color-white justify-content-center">
+          <div class="col-10 col-md-5 past-lessons past-lesson-3 m-1 py-5">
                 <h5>January 2020 Lessons</h5>
                 <p>Lecture Chatting with the students during a lesson</p>
           </div>
 
-          <div class="col-5 past-lessons past-lesson-4 mx-2 py-5">              
+          <div class="col-10 col-md-5 past-lessons past-lesson-4 m-1 py-5">              
                 <h5>January 2020 Lessons</h5>
                 <p>Senior lectures joined the free computer lessons </p>                
           </div>
         </div>
       </section>
+
+      <section class="partners-sections bg-dark py-5 color-white d-md-none">
+        <div class="section-header text-center ">
+          <h2 class="color-white">Partner</h2>
+
+          <div class="section-header-hr color-orange "><hr /></div>
+        </div>
+        <div class="text-center font-weight-bold"> 
+          <ul class="list-unstyled list-inline">
+            <li class=" list-inline-item"><img src="./assets/images/bac.png" alt="British Acreditation Council" class="w-75"></li>
+            <li class="list-inline-item"><a href="#"> <img src="./assets/images/cdc.png" alt="cdc logo" class="w-75"></a></li>
+            <li class="list-inline-item"><a href="#"> <img src="./assets/images/Goldman-Sachs.jpg" alt="goldman Logo" class="w-100"></a></li>
+            <li class="list-inline-item"><a href="#"><img src="./assets/images/university-ventures.jpg" alt="U university-ventures" class="w-100"></a></li>
+
+          </ul>
+        </div>
+      </section>
     </main>
-    <footer class="py-4 bg-dark color-white">
+    <footer>
+      <!-- First footer from md to large -->
+    <div class="py-4 bg-dark color-white d-none d-md-block">
       <div class="container">
       <div class="d-flex justify-content-around row  my-4 ">
         <ul class="list-unstyled list-inline ">
@@ -174,6 +194,26 @@
       <div>
       </div>
     </div>
+    </div>
+    <!-- End of first footer -->
+
+    <!-- Second footer from sm below -->
+    <div class="container py-4 text-center d-md-none">
+      <div class="d-flex justify-content-around row  my-4">
+        <ul class="list-unstyled list-group border-0 flex-sm-row">
+          <li class="list-group-item border-0 "><a href="#" class="color-black">Contact Us</a></li>
+          <li class="list-group-item border-0 "><a href="#" class="color-black">Register</a></li>
+          <li class="list-group-item border-0 "><a href="#" class="color-black">About Us</a></li>
+          <li class="list-group-item border-0 "><a href="#" class="color-black">Visit us</a></li>
+        </ul>         
+      </div>
+
+      <p>Developed by: <a href="https://github.com/Lichapa" class="text-dark">Lichapa 2020</a> | 
+       <a href="https://www.microverse.org/?grsf=szsjs5" class="text-dark">Learn to code</a></p>
+      <div>
+      </div>
+    </div> 
+    <!-- End of second footer -->
     </footer>
 
     <script

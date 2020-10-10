@@ -3,53 +3,63 @@
   src: url(/assets/COCOGOOSE/Cocogoose_trial.otf);
 } */
 
-*{
-  font-family: cocogoose,sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+$enable-shadows * {
+  font-family: cocogoose, sans-serif, "Franklin Gothic Medium", "Arial Narrow",
+    Arial;
 }
 
-.color-black{
-  color:#272A31;
+.color-black {
+  color: #272a31;
 }
 
-.color-orange{
-  color: #EC5242;
+.color-orange {
+  color: #ec5242;
 }
 
-.color-grey{
-  color: #D3D3D3;
+.color-grey {
+  color: #d3d3d3;
 }
 
-.color-white{
+.color-white {
   color: white;
 }
 
-.bg-black{
-  background-color:#272A31;
+.bg-black {
+  background-color: #272a31;
 }
 
-.bg-white{
+.bg-white {
   background-color: white;
 }
 
-.bg-grey{
+.bg-grey {
   background-color: rgba(30, 30, 30, 0.7);
 }
+
+.bg-grey2 {
+  background-color: #d3d3d3;
+}
+
+.bg-orange {
+  background-color: #ec5242;
+}
+
 
 .font-12 {
   font-size: 12px;
 }
 
-.border-red{
-  border: solid 3px  #EC5242;
+.border-red {
+  border: solid 3px #ec5242;
 }
 
-.first-section{
+.first-section {
   position: relative;
-  height:90vh;
+  height: 90vh;
   width: 100%;
 }
 
-.first-section::before{
+.first-section::before {
   content: "";
   background-image: url("../images/practicle-session.JPG");
   background-repeat: no-repeat;
@@ -60,54 +70,56 @@
   bottom: 0px;
   left: 0px;
   opacity: 0.4;
-
 }
 
 .section-header-hr {
-  border-top: 1px solid #EC5242 ;
+  border-top: 1px solid #ec5242;
   width: 4%;
   margin: auto;
 }
 
-.second-section-activities{
+.second-section-activities {
   background-color: rgba(87, 77, 77, 0.9);
+  cursor: pointer;
 }
 
-.past-lessons{
-height: 15em;
-width: 15em;
-color: #fff;
+.second-section-activities:hover {
+  border: 3px solid #ffffff;
+}
 
-cursor: pointer;
-background-size: cover;
+.past-lessons {
+  height: 15em;
+  width: 15em;
+  color: #fff;
+
+  cursor: pointer;
+  background-size: cover;
 }
 
 .past-lesson-1 {
-  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(238, 171, 164, 0.7)), url("../images/october-19.JPG");
+  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(238, 171, 164, 0.7)),
+    url("../images/october-19.JPG");
   background-position: center;
   background-size: 130%;
 }
 
 .past-lesson-2 {
-  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(238, 171, 164, 0.7)), url("../images/october-2019.JPG");
+  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(238, 171, 164, 0.7)),
+    url("../images/october-2019.JPG");
   background-position: center;
   background-size: 120%;
 }
 
 .past-lesson-3 {
-  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(238, 171, 164, 0.7)), url("../images/chatting-with-the-student.jpg");
+  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(238, 171, 164, 0.7)),
+    url("../images/chatting-with-the-student.jpg");
   background-position: 60% 45%;
   background-size: cover;
 }
 
 .past-lesson-4 {
-  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(238, 171, 164, 0.7)), url("../images/Lecture-Hall.jpg");
+  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(238, 171, 164, 0.7)),
+    url("../images/Lecture-Hall.jpg");
   background-position: center;
   background-size: 130%;
-  
 }
-
-
-
-
- 
