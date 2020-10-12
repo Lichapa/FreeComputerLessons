@@ -130,3 +130,7 @@
   text-align: left;
   margin-left: 0;
 }
+
+a:hover {
+  color: black;
+}
