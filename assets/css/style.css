@@ -144,6 +144,18 @@ a:hover {
   height: 30px;
 }
 
+.my-flex{
+  display: flex;
+}
+
+.my-flex-row{
+  flex-direction: row;
+}
+
+.my-flex-column{
+  flex-direction: column;
+}
+
 @media only screen and (max-width: 768px) {
   .first-section {
     height: 100%;
