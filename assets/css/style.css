@@ -1,7 +1,16 @@
+@import url(//https://fonts.google.com/?query=lato);
+
+
+@font-face {
+  font-family: "cocogoose";
+  src: url("../COCOGOOSE/Cocogoose_trial.otf") format("opentype");
+  }
+
+
 * {
   font-family:
     cocogoose,
-    sans-serif,
+    'lato',
     "Franklin Gothic Medium",
     "Arial Narrow",
     Arial;
