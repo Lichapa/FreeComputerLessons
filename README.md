@@ -20,10 +20,6 @@
 - CSS
 - Bootstrap
 
-## Dependencies
-
-> Refer to [https://github.com/microverseinc/linters-config/tree/master/html-css) for project setup guide.
-
 ## Live Demo
 
 [Live Demo Link](https://lichapa.github.io/FreeComputerLessons/)
