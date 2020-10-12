@@ -1,19 +1,15 @@
 @import url(//https://fonts.google.com/?query=lato);
 
-
 @font-face {
   font-family: "cocogoose";
   src: url("../COCOGOOSE/Cocogoose_trial.otf") format("opentype");
-  }
-
+}
 
 * {
   font-family:
     cocogoose,
     'lato',
-    "Franklin Gothic Medium",
-    "Arial Narrow",
-    Arial;
+    sans-serif;
 }
 
 .color-black {
@@ -142,4 +138,11 @@
 
 a:hover {
   color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  .first-section{
+    height: 100%;
+    margin-left: 0;
+  }
 }
