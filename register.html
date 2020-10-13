@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lilongwe: Free Computer Lessons</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="shadow-sm d-none d-md-block">
+      <nav class="nav-bar">
+        <div class="top-nav bg-black font-12">
+          <ul class="list-unstyled list-inline py-1 mb-1 text-right container">
+            <li class="list-inline-item">
+              <a class="color-white" href="#"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+            <li class="list-inline-item">
+              <a class="color-white" href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="color-white">English</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="color-white">My Page</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="color-white">Logout</a>
+            </li>
+          </ul>
+        </div>
+
+        <div
+          class="second-nav font-12 py-1 mt-0 bg-white container d-flex justify-content-between   "
+        >
+          <div>
+            <a href="index.html" class="color-black">
+              <img class="nav-logo"
+                src="./assets/images/unicaf-logo.png"
+                alt="Unicaf logo"
+              />
+              <span>2020 Computer Lessons</span>
+            </a>
+          </div>
+          <div >
+            <ul class="list-inline text-right">
+              <li class="list-inline-item">
+                <a href="index.html" class="color-black">Home</a>
+              </li>
+              <li class="list-inline-item ml-5">
+                <a href="about.html" class="color-black">About</a>
+              </li>
+              <li class="list-inline-item ml-5">
+                <button onclick="location.href='register.html'"
+                  type="submit"
+                  class="form-control form-control-sm border-red rounded-0 color-orange"
+                >Register                 
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="py-2 first-section-register row bg-grey2">
+        <div class="d-md-none container">
+          <div class="text-left pt-n4"> 
+            <div class="navbar navbar-expand-lg navbar-light ">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="register.html">Register</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container py-3 text-center mx-auto ">
+          <div class=" mx-auto  mb-4 " >
+            <h1 class="display-5 heading-infor font-weight-bold">
+              Select Tickets
+            </h1>
+            <div class="section-header-hr color-orange "><span class="d-none">hidden</span></div>
+          </div>
+          <div class="row w-100 mx-auto mb-4 justify-content-center">
+            <div class="col-8 m-1 py-2 rounded-pill font-12 font-weight-lighter border">
+              <span class="color-orange">STEP1</span> Please select the day you want to join Free computer lessons 2021
+            </div>       
+
+          </div>
+
+          <table class="table table-bordered col-11 col-md-8 font-12 mx-auto">
+            <thead>
+              <tr>
+                <th scope="col">Ticket</th>
+                <th scope="col">Day1</th>
+                <th scope="col">Day2</th>
+                <th scope="col">Day2</th>
+              </tr>
+            </thead>
+            <tbody class="bg-white">
+              <tr>
+                <th scope="row">Date</th>
+                <td>5 Jan(Tue)</td>
+                <td>6 Jan(Wed)</td>
+                <td>7 Jan(Thu)</td>
+              </tr>
+              <tr>
+                <th scope="row"> Normal</th>
+                <td>K10,000 <br>
+                  <input type="checkbox" name="free" id="k10000">
+                </td>
+                <td>K15,000 <br>
+                  <input type="checkbox" name="free" id="k15,000">
+                </td>
+                <td>Free <br>
+                  <input type="checkbox" name="free" id="free1">
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Students</th>
+                <td>Free <br>
+                <input type="checkbox" name="free" id="free2">
+                </td>
+                <td>Free <br>
+                  <input type="checkbox" name="free" id="free3">
+                </td>
+                <td>Free <br>
+                  <input type="checkbox" name="free" id="free4">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Lunch Section -->
+      <section class="">
+        <div class="container py-3 text-center mx-auto ">
+          <div class=" mx-auto  mb-4 " >
+            <h2 class="display-5 heading-infor font-weight-bold">
+              Select Your Drink
+            </h2>
+            <div class="section-header-hr color-orange "><span class="d-none">hidden</span></div>
+          </div>
+          <div class="row w-100 mx-auto mb-4 justify-content-center">
+            <div class="col-8 m-1 py-2 rounded-pill font-12 font-weight-lighter border">
+              <span class="color-orange">STEP2</span> Please select Your Drink for Breaks
+            </div>       
+
+          </div>
+
+          <table class="table table-bordered col-11 col-md-8 font-12 mx-auto">
+            <thead class="bg-grey2">
+              <tr>
+                <td >First Choice</td>                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="row col-12 mx-auto">
+                  <div class="col-10 col-sm-4">
+                    <input type="radio" id="fanta" name="drink" value="Fanta">
+                    <label for="fanta">Fanta</label><br>
+                  </div>
+                  <div class="col-10 col-sm-4">
+                    <input type="radio" id="coke" name="drink" value="Coke">
+                    <label for="coke">Coke</label><br>
+                  </div>
+                  <div class="col-10 col-sm-4 ">
+                    <input type="radio" id="Sprite" name="drink" value="sprite">
+                    <label for="Sprite">Sprite</label><br>
+                  </div>
+                </td>
+              </tr> 
+            </tbody>
+          </table>
+
+          <table class="table table-bordered col-11 col-md-8 font-12 mx-auto">
+            <thead class="bg-grey2">
+              <tr>
+                <td >Second Choice</td>                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="row col-12 mx-auto">
+                  <div class="col-10 col-sm-4">
+                    <input type="radio" id="Sparletta" name="drink" value="Sparletta">
+                    <label for="fanta">Sparletta</label><br>
+                  </div>
+                  <div class="col-10 col-sm-4">
+                    <input type="radio" id="Greenalls" name="drink" value="Greenalls">
+                    <label for="coke">Greenalls</label><br>
+                  </div>
+                  <div class="col-10 col-sm-4">
+                    <input type="radio" id="Pepsi" name="drink" value="Pepsi">
+                    <label for="Sprite">Pepsi</label><br>
+                  </div>
+                </td>
+              </tr> 
+            </tbody>
+          </table>
+
+          <div>
+            <button class="rounded col-10 bg-orange border-0 text-white p-2">Submit</button>
+          </div>
+        </div>
+      </section>
+      
+     
+
+     
+      <section class="partners-sections bg-dark py-5 color-white d-md-none">
+        <div class="section-header text-center ">
+          <h2 class="color-white">Partner</h2>
+
+          <div class="section-header-hr color-orange "><hr /></div>
+        </div>
+        <div class="text-center font-weight-bold"> 
+          <ul class="list-unstyled list-inline">
+            <li class=" list-inline-item"><img src="./assets/images/bac.png" alt="British Acreditation Council" class="w-75"></li>
+            <li class="list-inline-item"><a href="#"> <img src="./assets/images/cdc.png" alt="cdc logo" class="w-75"></a></li>
+            <li class="list-inline-item"><a href="#"> <img src="./assets/images/Goldman-Sachs.jpg" alt="goldman Logo" class="w-100"></a></li>
+            <li class="list-inline-item"><a href="#"><img src="./assets/images/university-ventures.jpg" alt="U university-ventures" class="w-100"></a></li>
+
+          </ul>
+        </div>
+      </section>
+   
+    </main>
+    <footer>
+      <!-- First footer from md to large -->
+    <div class="py-4 bg-dark color-white d-none d-md-block">
+      <div class="container">
+      <div class="d-flex justify-content-around row  my-4 ">
+        <ul class="list-unstyled list-inline ">
+          <li class="list-inline-item mr-3"><a href="about.html" class="color-white">About Us</a></li>
+          <li class="list-inline-item mx-3"><a href="index.html" class="color-white">Contact Us</a></li>
+          <li class="list-inline-item mx-3"><a href="register.html" class="color-white">Register</a></li>
+        </ul>         
+      </div>
+
+      <p class="text-center">Developed by: <a href="https://github.com/Lichapa" class="color-white">Lichapa 2020</a> | 
+       <a href="https://www.microverse.org/?grsf=szsjs5" class="color-white">Learn to code</a></p>
+      <div>
+      </div>
+    </div>
+    </div>
+    <!-- End of first footer -->
+
+    <!-- Second footer from sm below -->
+    <div class="container py-4 text-center d-md-none">
+      <div class="d-flex justify-content-around row  my-4">
+        <ul class="list-unstyled list-group border-0 flex-sm-row">
+          <li class="list-group-item border-0 "><a href="index.html" class="color-black">Contact Us</a></li>
+          <li class="list-group-item border-0 "><a href="register.html" class="color-black">Register</a></li>
+          <li class="list-group-item border-0 "><a href="about.html" class="color-black">About Us</a></li>
+        </ul>         
+      </div>
+
+      <p>Developed by: <a href="https://github.com/Lichapa" class="text-dark">Lichapa 2020</a> | 
+       <a href="https://www.microverse.org/?grsf=szsjs5" class="text-dark">Learn to code</a></p>
+      <div>
+      </div>
+    </div> 
+    <!-- End of second footer -->
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/5b1eeceadd.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
