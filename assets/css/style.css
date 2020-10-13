@@ -158,4 +158,9 @@ a:hover {
     height: 100%;
     margin-left: 0;
   }
+
+  .partners-sections div ul li {
+    margin-top: 5px;
+    margin-bottom: 3px;
+  }
 }
