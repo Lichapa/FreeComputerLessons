@@ -6,10 +6,7 @@
 }
 
 * {
-  font-family:
-    cocogoose,
-    'lato',
-    sans-serif;
+  font-family: cocogoose, "lato", sans-serif;
 }
 
 .color-black {
@@ -144,15 +141,15 @@ a:hover {
   height: 30px;
 }
 
-.my-flex{
+.my-flex {
   display: flex;
 }
 
-.my-flex-row{
+.my-flex-row {
   flex-direction: row;
 }
 
-.my-flex-column{
+.my-flex-column {
   flex-direction: column;
 }
 
