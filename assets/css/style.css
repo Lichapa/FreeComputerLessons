@@ -81,6 +81,7 @@
 .second-section-activities {
   background-color: rgba(87, 77, 77, 0.9);
   cursor: pointer;
+  border: 3px solid transparent;
 }
 
 .second-section-activities:hover {
